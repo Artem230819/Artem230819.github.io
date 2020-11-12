@@ -1,1 +1,1 @@
-# Artem230819.github.io
+# https://artem230819.github.io/staticSite/
