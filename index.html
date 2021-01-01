@@ -1,14 +1,476 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Static site</title>
+	<title>Final progect</title>
+	<link rel="stylesheet" href="./css/misc/normalize.css">
+	<link rel="stylesheet" href="./css/misc/font.css">
+	<link rel="stylesheet" href="./css/reiteration.css">
+	<link rel="stylesheet" href="./css/blocks/home.css">
+	<link rel="stylesheet" href="./css/blocks/example.css">
+	<link rel="stylesheet" href="./css/blocks/download.css">
+	<link rel="stylesheet" href="./css/blocks/why.css">
+	<link rel="stylesheet" href="./css/blocks/interesting.css">
+	<link rel="stylesheet" href="./css/blocks/organization-process.css">
+	<link rel="stylesheet" href="./css/blocks/slider.css">
+	<link rel="stylesheet" href="./css/blocks/to-start.css">
+	<link rel="stylesheet" href="./css/blocks/form.css">
+	<link rel="stylesheet" href="./css/blocks/footer.css">
+	<link rel="stylesheet" href="./css/adaptive.css">
 </head>
 
 <body>
-	<h1>Привет мир</h1>
+	<header class="home">
+		<div class="container">
+			<div class="home__header header">
+				<div class="home__logo header__logo">
+					<a class="home__logo-text header__logo-text header__logo-text--active" href="#">Проводник</a>
+				</div>
+				<nav class="header__nav">
+					<ul class="header__nav-items">
+						<li class="header__nav-item"><a href="#"
+								class="header__nav-link header__nav-link--active">Услуги</a></li>
+						<li class="header__nav-item"><a href="#"
+								class="header__nav-link header__nav-link--active">Цены</a></li>
+						<li class="header__nav-item"><a href="#" class="header__nav-link header__nav-link--active">Как
+								это работает</a></li>
+						<li class="header__nav-item"><a href="#"
+								class="header__nav-link header__nav-link--active">Блог</a></li>
+						<li class="header__nav-item"><a href="#" class="header__nav-link header__nav-link--active">О
+								компании</a></li>
+						<li class="header__nav-item"><a href="#"
+								class="header__nav-link header__nav-link--active">Производителям</a></li>
+						<li class="header__nav-item"><a href="#"
+								class="header__nav-link header__nav-link--active">Проекты</a></li>
+						<li class="header__nav-item"><a href="#"
+								class="header__nav-link header__nav-link--active">Контакты</a></li>
+					</ul>
+				</nav>
+				<span><a class="header__nav-expand" href="#">&#9776;</a></span>
+			</div>
+			<section class="home__content">
+				<div class="home__contacts contacts">
+					<div class="contacts__address">
+						<div>
+							<img class="contacts__address-logo" src="./img/icon/location.svg" alt="location">
+						</div>
+						<div class="contacts__address-text">
+							г. Москва, ул. Улица, 20 с. 1
+						</div>
+					</div>
+					<div class="contacts__connection">
+						<img class="contacts__connection-logo" src="./img/icon/phone_bluetooth_speaker_24px.svg"
+							alt="phone">
+						<div class="contacts__connection-items">
+							<a class="contacts__connection-tel" href="tel:81231231288">8(123) 123-12-88</a>
+							<a class="contacts__connection-mail" href="mailto:info@provodnik.ru">info@provodnik.ru</a>
+						</div>
+					</div>
+					<div class="contacts__btn-wrapper">
+						<div class="btn-shadow">
+							<a href="#" class="contacts__btn btn btn--active-yellow">Обратный звонок</a>
+						</div>
+					</div>
+				</div>
+				<div class="home__main">
+					<h1 class="home__main-title">Зайди на </h1>
+					<figure>
+						<img class="home__main-img" src="./img/icon/Aliexpress_logo.svg" alt="Aliexpress_logo">
+					</figure>
+					<div>
+						<p class="home__main-desc">Лучшее решение для небольших
+							интернет-магазинов и производителей</p>
+					</div>
+					<div class="home__main-btn-wrapper ">
+						<div class="btn-shadow">
+							<a class="home__main-btn  btn btn--active-yellow" href="#">Хочу на AliExpress</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</header>
+	<main>
+		<aside class="example">
+			<div class="container">
+				<div class="example__content">
+					<div class="example__left-content">
+						<span class="example__left-velcro velcro velcro--active">
+							Ситуация
+						</span>
+						<div class="example__left-content-box">
+							<img class="example__left-content-img" src="./img/pic/Rectangle.jpg" alt="Rectangle">
+							<p class="example__left-content-desc">
+								Вы тратите много сил и денег на маркетинг и рекламу своих товаров. Самые эффективные из
+								каналов — дорогие и требуют большой работы.
+							</p>
+						</div>
+					</div>
+					<div class="example__right-content">
+						<span class="example__right-velcro velcro velcro--active">
+							Решение
+						</span>
+						<div class="example__right-box-title">Точнее, их два. </div>
+						<div class="example__right-content-box">
+							<div class="example__right-box-nambering">
+								<span class="example__right-box-namber example__right-box-namber--active">1</span>
+							</div>
+							<div class="example__right-box-text">
+								<p class="example__right-box-desc">Сотрудничать с существующим магазином
+									на AliExpress и избавить себя от забот вроде вопросов колл-центра, хранения и
+									доставки.
+									И опять же – не тратиться на маркетинг.</p>
+							</div>
+						</div>
+						<div class="example__right-content-box">
+							<div class="example__right-box-nambering">
+								<span class="example__right-box-namber example__right-box-namber--active">2</span>
+							</div>
+							<div class="example__right-box-text">
+								<p class="example__right-box-desc">Cоздать магазин на маркетплейсе AliExpress
+									и реализовывать товары покупателям со всего мира. Один емкий и грамотный канал
+									продаж заменит все рекламные инструменты, которыми вы пользовались до этого.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<section class="download">
+			<div class="container">
+				<div class="download__content">
+					<h2 class="download__title">Что вы получите с магазином
+						на AliExpress?</h2>
+					<div class="download__items-top">
+						<div class="download__item">
+							<img class="download__item-img" src="./img/icon/calc.svg" alt="calc">
+							<p class="download__item-desc">Снизите операционные расходы
+								и расходы на маркетинг.
+							</p>
+						</div>
+						<div class="download__item">
+							<img class="download__item-img" src="./img/icon/grafik.svg" alt="grafik">
+							<p class="download__item-desc">Трафик из очень активных покупателей из регионов.
+							</p>
+						</div>
+					</div>
+					<div class="download__items-bot">
+						<div class="download__item">
+							<img class="download__item-img" src="./img/icon/bigprodaji.svg" alt="bigprodaji">
+							<p class="download__item-desc">Сможете реализовывать продукцию в очень больших объемах. </p>
+						</div>
+						<div class="download__item">
+							<img class="download__item-img" src="./img/icon/pyb.svg" alt="pyb">
+							<p class="download__item-desc">В 2020 году еще увеличите продажи за счет покупателей
+								из стран СНГ.
+							</p>
+						</div>
+					</div>
+					<div class="download__btn-wrapper">
+						<div class="btn-shadow">
+							<a href="#" class="download__btn btn  btn--active-black">Скачать предложение</a>
+						</div>
+					</div>
+				</div>
+				<span class="download__img-aliexpress"></span>
+			</div>
+		</section>
+		<section class="why">
+			<div class="container">
+				<h2 class="why_title">Почему выходить на AliExpress самостоятельно сложно?</h2>
+				<div class="why__content">
+					<div class="why__left-content">
+						<div class="why__left-content-text-wrapper">
+							<span class="why__content-velcro velcro velcro--active">Самостоятельно</span>
+							<ul class="why__content-left-items">
+								<li class="why__content-left-list">Китайская площадка со сложными правилами и формулами.
+								</li>
+								<li class="why__content-left-list">Ограниченные возможности без статуса технического
+									партнера.
+								</li>
+								<li class="why__content-left-list">Очень тяжело добиться высокого рейтинга магазинов и
+									товаров –
+									<mark class="why__content-mark-text">главного фактора в выдаче по запросу.</mark>
+								</li>
+							</ul>
+						</div>
+						<img class="why__content-left-img" src="./img/pic/Rectangle(1).jpg" alt="Rectangle">
+					</div>
+					<div class="why__right-content">
+						<span class="why__content-right-velcro velcro velcro--active">С техническим партнером Content
+							Hub</span>
+						<ul class="why__content-right-items">
+							<li class="why__content-right-list point">Берем заключение договора на себя.</li>
+							<li class="why__content-right-list point">Помогаем с описанием товаров.</li>
+							<li class="why__content-right-list point">Брендируем магазин. </li>
+							<li class="why__content-right-list point">Создаем аккаунт. </li>
+							<li class="why__content-right-list point">Коннектим магазин с вашей CRM.</li>
+						</ul>
+						<div class="why__content-right-footer">
+							<img class="why__content-right-img" src="./img/icon/vverx.svg" alt="vverx">
+							<p class="why__content-right-desc">И главное — продвигаем в рейтинге на первые позиции в
+								выдаче.</p>
+						</div>
+						<div class="why__content-btn-wrapper">
+							<div class="btn-shadow">
+								<a class="why__content-btn btn btn--active-yellow" href="#">Написать нам</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="interesting">
+			<div class="container">
+				<div class="interesting__wrapper">
+					<h2 class="interesting__title">Кому интересно на AliExpress с Проводником?</h2>
+					<div class="interesting__content">
+						<div class="interesting__content-item">
+							<div class="interesting__content-img interesting__content-img-dom"></div>
+							<div class="interesting__content-desc">
+								<h3 class="interesting__content-desc-title">Небольшим интернет-магазинам </h3>
+								<p class="interesting__content-desc-basic">С ограниченными ресурсами и бюджетом
+									на рекламу.</p>
+							</div>
+						</div>
+						<div class="interesting__content-item">
+							<div class="interesting__content-img interesting__content-img-zavodik"></div>
+							<div class="interesting__content-desc">
+								<h3 class="interesting__content-desc-title">Небольшим производителям</h3>
+								<p class="interesting__content-desc-basic">Готовы поставлять товар реселлеру и не хотят
+									заниматься продвижением товаров конечному покупателю.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="organization-process">
+			<div class="container">
+				<h2 class="organization-process__title">Как организован процесс?</h2>
+				<div class="organization-process__content">
+					<div class="organization-process__content-desc-wrapper">
+						<p class="organization-process__content-desc point">Проводник ищет магазины
+							и производителей и заводит
+							их на маркетплейс.
+						</p>
+					</div>
+					<div class="organization-process__content-desc-wrapper">
+						<p class="organization-process__content-desc point">Представляет интересы мерчантов
+							и коммуницирует с площадкой по всем установочным вопросам.</p>
+					</div>
+					<div class="organization-process__content-desc-wrapper">
+						<p class="organization-process__content-desc point">Ищет партнеров-реселлеров
+							при необходимости и помогает наладить взаимодействие.
+						</p>
+					</div>
+					<div class="organization-process__content-desc-wrapper">
+						<p class="organization-process__content-desc point">Уже освоил алгоритм продвижения магазина и
+							готов
+							его применить для вашей раскрутки на маркетплейсе.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="slider">
+			<div class="container">
+				<div class="slider__header">
+					<h2 class="slider__header-title">Чего добились с Проводником
+						другие магазины?</h2>
+					<img class="slider__header-img" src="./img/pic/paket_mish.png" alt="paket_mish">
+				</div>
+				<article class="slider__content">
+					<span class="slider__velcro velcro velcro--active">Кейс</span>
+					<img class="slider__content-img" src="./img/icon/h_m2.svg" alt="h_m2">
+					<div class="slider__main-content">
+						<h3 class="slider__content-title">Продвижение и раскрутка магазина одежды </h3>
+						<p class="slider__content-desc">Проводник ищет магазины и производителей и заводит их на
+							маркетплейс. Уже освоил алгоритм продвижения магазина и готов его применить для вашей
+							раскрутки на маркетплейсе.
+
+						</p>
+						<div class="slider__content-footer">
+							<div class="slider__content-footer-basic">
+								<span class="slider__content-footer-number point">765 885</span>
+								<span class="slider__content-footer-text">Законченных
+									покупок</span>
+							</div>
+							<div class="slider__content-footer-basic">
+								<span class="slider__content-footer-number point">789 654</span>
+								<span class="slider__content-footer-text">Просмотров
+									магазина</span>
+							</div>
+						</div>
+					</div>
+				</article>
+				<div class="slider__switches">
+					<a href="#" class="slider__switch"></a>
+					<a href="#" class="slider__switch-active"></a>
+					<a href="#" class="slider__switch"></a>
+					<a href="#" class="slider__switch"></a>
+				</div>
+			</div>
+		</section>
+		<section class="to-start">
+			<div class="container">
+				<h2 class="to-start__title">Как начать?</h2>
+				<div class="to-start__content">
+					<div class="to-start__content-item point">
+						<span>Заполните форму.</span>
+						<img class="to-start__content-item-img" src="./img/icon/arrow.svg" alt="arrow">
+					</div>
+					<div class="to-start__content-item point">
+						<span>Обсудим ваши задачи с менеджером.</span>
+						<img class="to-start__content-item-img" src="./img/icon/arrow.svg" alt="arrow">
+
+					</div>
+					<div class="to-start__content-item point">
+						<span>Сформируем пакет услуг.</span>
+						<img class="to-start__content-item-img" src="./img/icon/arrow.svg" alt="arrow">
+					</div>
+					<div class="to-start__content-item point">
+						<span>Заключим договор.</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="form">
+			<div class="container">
+				<div class="form__wrapper">
+					<span class="form__img-background">
+					</span>
+					<h2 class="form__title">Пожалуйста, оставьте свои контакты</h2>
+					<form action="index.html" method="GET">
+						<div class="form__content">
+							<div class="form__left-content">
+								<div class="form__name-box box">
+									<input class="box__itput" type="text" id="name" placeholder="Как к вам обращаться"
+										name="name" required>
+									<label class="box__lable" for="name">Имя</label>
+								</div>
+								<div class="form__tel-box box">
+									<input class="box__itput" type="tel" id="phone" placeholder="+7 (123) 12-12-123"
+										name="phone" required>
+									<label class="box__lable" for="phone">Телефон</label>
+								</div>
+								<div class="form__mail-box box">
+									<input class="box__itput" type="email" id="mail" placeholder="Нужен для связи"
+										name="mail" required>
+									<label class="box__lable" for="mail">Е-mail</label>
+								</div>
+								<div class="form__fgreement-wrapper">
+									<p class="form__fgreement-desc">Оправляя форму, вы соглашаетесь на сбор, обработку
+										и хранение ваших данных сотрудниками компании.</p>
+									<a href="#" class="form__fgreement-link">Политика конфиденциальности</a>
+								</div>
+							</div>
+							<div class="form__right-content ">
+								<div class="form__activity-box box">
+									<select class="box__itput" id="activity" name="activity" required>
+										<option value="" selected disabled>Выберите род деятельности
+										</option>
+										<option value="Фронтенд">Фронтенд</option>
+										<option value="Бэкенд">Бэкенд</option>
+										<option value="Фуллстак">Фуллстак</option>
+									</select>
+									<label class="box__lable" for="activity">Кто вы</label>
+								</div>
+								<div class="form__domain-box box">
+									<input class="box__itput" type="text" id="domain" name="domain" required>
+									<label class="box__lable" for="domain">Домен (если есть)</label>
+								</div>
+								<div class="form__focused-example box">
+									<input class="box__itput" type="text" id="example" placeholder="Input caption"
+										autofocus name="example" required>
+									<label class="box__lable" for="example">Focused state</label>
+								</div>
+								<div class="form__fgreement-adaptive">
+									<p class="form__fgreement-desc">Оправляя форму, вы соглашаетесь на сбор, обработку
+										и хранение ваших данных сотрудниками компании.</p>
+									<a href="#" class="form__fgreement-link">Политика конфиденциальности</a>
+								</div>
+								<div class="form__submit-wrapper">
+									<div class="btn-shadow">
+										<input class="form__submit btn btn--active-yellow" type="submit"
+											value="Отправить">
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__top header">
+				<div class="header__logo">
+					<a class="header__logo-text header__logo-text--active" href="#">Проводник</a>
+				</div>
+				<nav class="header__nav">
+					<ul class="header__nav-items">
+						<li class="header__nav-item"><a href="#"
+								class="header__nav-link header__nav-link--active">Услуги</a></li>
+						<li class="header__nav-item"><a href="#"
+								class="header__nav-link header__nav-link--active">Цены</a></li>
+						<li class="header__nav-item"><a href="#" class="header__nav-link header__nav-link--active">Как
+								это работает</a></li>
+						<li class="header__nav-item"><a href="#"
+								class="header__nav-link header__nav-link--active">Блог</a></li>
+						<li class="header__nav-item"><a href="#" class="header__nav-link header__nav-link--active">О
+								компании</a></li>
+						<li class="header__nav-item"><a href="#"
+								class="header__nav-link header__nav-link--active">Производителям</a></li>
+						<li class="header__nav-item"><a href="#"
+								class="header__nav-link header__nav-link--active">Проекты</a></li>
+						<li class="header__nav-item"><a href="#"
+								class="header__nav-link header__nav-link--active">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footer__bot">
+				<div class="footer__bot-content contacts">
+					<div class="footer__reserved-wrapper">
+						<span class="footer__reserved-copyright">©</span>
+						<div class="footer__reserved-text-wrapper">
+							<div> 2018</div>
+							<div>Все права защищены.</div>
+						</div>
+					</div>
+					<div class="footer__contacts contacts__address">
+						<div class="contacts__address-logo">
+							<img src="./img/icon/location.svg" alt="location">
+						</div>
+						<div class="contacts__address-text">
+							г. Москва, ул. Улица, 20 с. 1
+						</div>
+					</div>
+					<div class="footer__contacts contacts__connection">
+						<img class="contacts__connection-logo footer__connection-logo"
+							src="./img/icon/phone_bluetooth_speaker_24px.svg" alt="phone">
+						<div class="contacts__connection-items">
+							<a class="contacts__connection-tel" href="tel:81231231288">8(123) 123-12-88</a>
+							<a class="contacts__connection-mail" href="mailto:info@provodnik.ru">info@provodnik.ru</a>
+						</div>
+					</div>
+					<div class="footer__bot-facebook">
+						<img src="./img/icon/facebook1.svg" alt="facebook1">
+					</div>
+					<div class="contacts__btn-wrapper">
+						<div class="btn-shadow">
+							<a href="#" class="contacts__btn contacts__btn--primary btn btn--active-yellow">Обратный
+								звонок</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 
 </html>

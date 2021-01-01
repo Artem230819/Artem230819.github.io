@@ -1,0 +1,54 @@
+.interesting{
+	font-family: "Roboto", sans-serif;
+}
+.interesting__wrapper{
+	background-color: #7224EA;
+	padding: 2.9375rem 1.25rem 3.375rem 1.25rem;
+}
+.interesting__title{
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 3rem;
+}
+.interesting__content{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.interesting__content-item{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	color: #fff;
+}
+.interesting__content-item:last-child{
+	margin-top: 0.625rem;
+}
+.interesting__content-item:first-child{
+	margin-right: 13.125rem;
+}
+.interesting__content-img{
+	margin-right: 1.875rem;
+	border: 0.125rem solid #FFFFFF; 
+	padding: 1.5625rem;
+	width: 5rem;
+	height: 5rem;
+	border-radius: 50%;
+}
+.interesting__content-img-dom{
+	background: url(../../img/icon/dom.svg) center / 1.875rem 1.875rem no-repeat;
+}
+.interesting__content-img-zavodik{
+	background: url(../../img/icon/zavodik.svg) center / 1.875rem 1.875rem no-repeat;
+}
+.interesting__content-desc-title{
+	font-weight: 700;
+	font-size: 1.125rem;
+}
+.interesting__content-desc-basic{
+	font-weight: 400;
+	font-size: 0.875rem;
+	margin-top: 0.8125rem;
+	max-width: 20rem;
+	width: 100%;
+}

@@ -1,0 +1,111 @@
+.organization-process{
+	font-family: "Roboto", sans-serif;
+}
+.organization-process__title{
+	font-weight: 700;
+	font-size: 2rem;
+	margin-top: 10.625rem;
+	margin-bottom: 3.125rem;
+}
+
+.organization-process__content{
+	position: relative;
+	background: url(../../img/fon/chels-misheniu.png) 0 0 / auto 100% no-repeat;
+	width: 33rem;
+	height: 36.5rem;
+	margin: 0 auto;
+	z-index: -10;
+}
+.organization-process__content-desc-wrapper{
+	position: absolute;
+}
+.organization-process__content-desc-wrapper:nth-child(1){
+	left: -20.1875rem;
+    bottom: 9.875rem;
+}
+.organization-process__content-desc-wrapper:nth-child(2){
+	left: -20.375rem;
+    top: 4.625rem;
+}
+.organization-process__content-desc-wrapper:nth-child(3){
+    right: -12.75rem;
+    top: -1.125rem;
+
+}
+.organization-process__content-desc-wrapper:nth-child(4){
+	right: -19.3125rem;
+    bottom: 19.125rem;
+}
+.organization-process__content-desc{
+	position: relative;
+	font-weight: 400;
+	font-size: 1rem;
+	max-width: 20.4375rem;
+	width: 100%;
+	text-align: right;
+}
+.organization-process__content-desc-wrapper:nth-child(1n+3) .organization-process__content-desc{
+	text-align: left;
+}
+.organization-process__content-desc-wrapper:nth-child(4) .organization-process__content-desc{
+	max-width: 16.625rem;
+}
+.organization-process__content-desc-wrapper .organization-process__content-desc::before{
+    color: #fff;
+    text-align: center;
+    line-height: 2.3125rem;
+    background-clip: content-box;
+    padding: 0.25rem;
+    width: 2.3125rem;
+    height: 2.3125rem;
+}
+.organization-process__content-desc-wrapper .organization-process__content-desc::after{
+	position: absolute;
+	text-align: center;
+    line-height: 2.3125rem;
+    background-color: #fff;
+    width: 3.8125rem;
+	height: 3.8125rem;
+	z-index: -1;
+	border-radius: 50%;
+}
+.organization-process__content-desc-wrapper:nth-child(1) .organization-process__content-desc::before{
+	content: "1";
+	right: -4.6875rem; 
+	top: 0;
+}
+.organization-process__content-desc-wrapper:nth-child(1) .organization-process__content-desc::after{
+	content: "";
+	right: -4.6875rem; 
+	top: 0;
+}
+.organization-process__content-desc-wrapper:nth-child(2) .organization-process__content-desc::before{
+	content: "2";
+	right: -5.25rem;
+	top: 0;
+}
+.organization-process__content-desc-wrapper:nth-child(2) .organization-process__content-desc::after{
+	content: "";
+	right: -5.25rem;
+	top: 0;
+}
+.organization-process__content-desc-wrapper:nth-child(3) .organization-process__content-desc::before{
+	content: "3";
+	left: -6.4375rem;
+	top: 0;
+}
+.organization-process__content-desc-wrapper:nth-child(3) .organization-process__content-desc::after{
+	content: "";
+	left: -6.4375rem;
+	top: 0;
+}
+.organization-process__content-desc-wrapper:nth-child(4) .organization-process__content-desc::before{
+	content: "4";
+	left: -4.875rem;
+	top: 0;
+}
+.organization-process__content-desc-wrapper:nth-child(4) .organization-process__content-desc::after{
+	content: "";
+	left: -4.875rem;
+	top: 0;
+}
