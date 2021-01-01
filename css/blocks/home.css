@@ -1,5 +1,5 @@
 .home{
-	background: url("/img/fon/fon.png") center center no-repeat;
+	background: url(/img/fon/home.png) center center no-repeat;
 	padding-bottom: 11.625rem;
 	background-size: cover;
 }
