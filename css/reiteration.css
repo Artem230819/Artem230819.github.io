@@ -26,6 +26,8 @@ figure{
 	width: 100%;
 	margin: 0 auto;
 	min-width: 320px;
+	padding-left: 0.625rem;
+	padding-right: 0.625rem;
 }
 
 .header{
@@ -65,10 +67,12 @@ transition-property: color;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	flex-wrap: wrap;
 }
 .header__nav-item{
 	list-style-type: none;
 	margin-left: 1.625rem;
+	margin-bottom: 0.625em;
 }
 .header__nav-link{
 	text-decoration: none;
@@ -78,7 +82,7 @@ transition-property: color;
 }
 .header__nav-expand{
 	color: #000;
-	font-size: 30px;
+	font-size: 1.875em;
 	text-decoration: none;
 	display: none;
 }
@@ -109,7 +113,7 @@ transition-property: color;
 	display: block;
 	border-bottom: solid 2px #fff;
 	width: 0%;
-	padding-bottom: 18px;
+	padding-bottom: 1.125rem;
 }
 .header__nav-link--active:hover:before{
 	width: 100%;
@@ -231,6 +235,7 @@ transition-property: color;
 	-webkit-clip-path: polygon(0% 0%, 95% 0%, 98% 50%, 95% 100%, 0% 100%);
 	        clip-path: polygon(0% 0%, 95% 0%, 98% 50%, 95% 100%, 0% 100%);
 	font-size: 1.5rem;
+	display: inline-block;
 }
 .btn-shadow{
 	-webkit-filter: drop-shadow(0px 16px 32px rgba(69, 90, 100, 0.4));

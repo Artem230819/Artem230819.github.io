@@ -1,11 +1,23 @@
 .home{
-	background: url(../../img/fon/home.png) center center no-repeat;
+
+	background: url(../../img/fon/fon.png) center center no-repeat;
+	background-size: contain;
 	padding-bottom: 11.625rem;
 	background-size: cover;
+	position: relative;
 }
 
 .home__header{
 	padding-top: 0.875rem;
+}
+.home__content-img{
+	position: absolute;
+	background: url(../../img/fon/devushka.png) 0 0 / auto 100% no-repeat;
+	width: 51.4194rem;
+	height: 34.375rem;
+	bottom: 0;
+	left: 9rem;
+	right: 23.125rem;
 }
 .home__contacts{
 	margin-top: 1.1875rem;
